@@ -1,0 +1,17 @@
+appdirs==1.4.4
+cfgv==3.2.0
+click==7.1.2
+distlib==0.3.1
+filelock==3.0.12
+Flask==1.1.2
+identify==1.5.6
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+nodeenv==1.5.0
+pre-commit==2.7.1
+PyYAML==5.3.1
+six==1.15.0
+toml==0.10.1
+virtualenv==20.0.35
+Werkzeug==1.0.1
