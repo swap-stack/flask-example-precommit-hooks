@@ -1,10 +1,23 @@
 repos:
--   repo: https://github.com/ambv/black
-    rev: stable
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
     hooks:
-    - id: black
-      language_version: python3.8.5
--   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.7.9
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+        # TODO(dmu) HIGH: Remove large files from git repository
+        args: [ '--maxkb=8096' ]
+  - repo: https://github.com/python/black
+    rev: 19.3b0
     hooks:
-    - id: flake8
+      - id: black
+        language_version: python3.8.5
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.2.3
+    hooks:
+      - id: flake8
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: '8af02ed80df134f7495b27c9c1d052cb84611c77'
+    hooks:
+      - id: mypy
