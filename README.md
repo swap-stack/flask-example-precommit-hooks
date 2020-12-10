@@ -1,11 +1,21 @@
-# flask-example
+# flask-example-with-precommit
 
-A very simple barebones example of a Flask Application. 
+A very simple barebones example of a Flask Application with some pre-commit hooks.
 
 How to run:
-Clone the repository
+
+With the pre-commit hooks
 ```
-cd flask-example/flask-example on your terminal 
+git clone
+cd flask-example/flaskexample
+pip install -r requirements.txt
+pre-commit install
+```
+
+Without hooks
+```
+git clone 
+cd flask-example/flaskexample
 pip install -r requirements.txt
 flask run
 ```
