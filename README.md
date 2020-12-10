@@ -6,7 +6,7 @@ How to run:
 
 With the pre-commit hooks
 ```
-git clone
+git clone https://github.com/swap-stack/flask-example.git
 cd flask-example/flaskexample
 pip install -r requirements.txt
 pre-commit install
@@ -14,7 +14,7 @@ pre-commit install
 
 Without hooks
 ```
-git clone 
+git clone https://github.com/swap-stack/flask-example.git
 cd flask-example/flaskexample
 pip install -r requirements.txt
 flask run
