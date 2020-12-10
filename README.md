@@ -4,18 +4,16 @@ A very simple barebones example of a Flask Application with some pre-commit hook
 
 How to run:
 
-With the pre-commit hooks
+Check files with pre-commit hooks
 ```
 git clone https://github.com/swap-stack/flask-example.git
 cd flask-example/flaskexample
 pip install -r requirements.txt
 pre-commit install
+pre-commit run -a 
 ```
 
-Without hooks
+Run the Flask App:
 ```
-git clone https://github.com/swap-stack/flask-example.git
-cd flask-example/flaskexample
-pip install -r requirements.txt
 flask run
 ```
