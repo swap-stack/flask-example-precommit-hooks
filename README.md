@@ -1,10 +1,10 @@
-# flask-example-with-precommit
+# Flask App with git pre-commit hooks
 
-A very simple barebones example of a Flask Application with some pre-commit hooks.
+A very simple barebones example of a Flask Application with git advanced pre-commit hooks.
 
 How to run:
 
-Check files with pre-commit hooks
+Clone the repo and install the requirements:
 ```
 git clone https://github.com/swap-stack/flask-example.git
 cd flask-example/flaskexample
